@@ -28,7 +28,7 @@ spec:
               mountPath: /etc/config
             - name: secrets
               mountPath: /etc/secrets
-          image: nikololiahim/ls-lab-4-sample-project:latest
+          image: daniilsinelnik/ls-lab-4-sample-project:latest
           ports:
             - containerPort: 9090
           env:
