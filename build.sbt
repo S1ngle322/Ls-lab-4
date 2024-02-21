@@ -28,8 +28,8 @@ lazy val rootProject = (project in file("."))
   .settings(
     Docker / version := "latest",
     Docker / packageName := "ls-lab-4-sample-project",
-    Docker / maintainer := "Mihail Olokin",
+    Docker / maintainer := "Daniil Sinelnik",
     dockerBaseImage := "openjdk:17",
     dockerExposedPorts := Seq(8000, 8080),
-    dockerUsername := Some("nikololiahim"),
+    dockerUsername := Some("DaniilSinelnik"),
   )
